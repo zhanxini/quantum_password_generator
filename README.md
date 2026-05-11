@@ -25,3 +25,9 @@ Both methods have 10 randomly regenerated words which have **+128 bit of entropy
 
 for more reading: 
 https://secure.research.vt.edu/diceware/#eff
+
+# use
+
+the more words that are generated, the greater bits of entropy, hence, if you generate 20 words randomly, you'd have about 250+ bits of entropy, tough to crack even with advanced quantum computing
+
+# NEXT UP: where best to store 20 - 30 words??
