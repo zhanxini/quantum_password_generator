@@ -10,7 +10,7 @@ import urllib.request
     # Each line is: "11111 word" -> we only want the word
     words = [line.split()[1] for line in content.strip().split('\n')]
 
-# Securely generate a 9-word phrase
-passphrase = " ".join(secrets.choice(words) for _ in range(9))
+# Securely generate a 10-word phrase
+passphrase = " ".join(secrets.choice(words) for _ in range(10))
 
 print(f"Your Secure Phrase: {passphrase}")
